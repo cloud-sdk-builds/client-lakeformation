@@ -1,7 +1,7 @@
 # 🟡 Community Browser CDN Build – JavaScript SDK Client Package
 
 This repository provides a **community-maintained, browser-ready distribution** of the npm module
-[`@aws-sdk/client-lakeformation`](https://www.npmjs.com/package/@aws-sdk/client-lakeformation/v/3.956.0).
+[`@aws-sdk/client-lakeformation`](https://www.npmjs.com/package/@aws-sdk/client-lakeformation/v/3.957.0).
 
 Each package is **automatically built and published to a CDN**, allowing developers to use the SDK client **directly in browsers** with **zero bundling or build steps**.
 
@@ -28,13 +28,13 @@ You can use this package directly in the browser via **jsDelivr** using an **imp
 CDN URL
 
 ```text
-https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-lakeformation@3.956.0/index.min.mjs
+https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-lakeformation@3.957.0/index.min.mjs
 ```
 
 SRI SHA Hash
 
 ```text
-sha384-e/ULSe9GYXbJw/GUXzeB6YKn9Cxv92ASzC6NVM3pQUoKCU/Jnes0Jvu/uUVada5B
+sha384-iXBx6pghiKS9Upkbq95B/gCb+gRvLMXU7Uy4X6GORdHJdM6x6q8Od47jJCHKcCyX
 ```
 
 ### 📌 Latest Version
@@ -61,10 +61,10 @@ ImportMap
 <script type="importmap">
       {
         "imports": {
-            "@aws-sdk/client-lakeformation": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-lakeformation@3.956.0/index.min.mjs"
+            "@aws-sdk/client-lakeformation": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-lakeformation@3.957.0/index.min.mjs"
         },
           "integrity": {
-            "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-lakeformation@3.956.0/index.min.mjs": "sha384-e/ULSe9GYXbJw/GUXzeB6YKn9Cxv92ASzC6NVM3pQUoKCU/Jnes0Jvu/uUVada5B"
+            "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-lakeformation@3.957.0/index.min.mjs": "sha384-iXBx6pghiKS9Upkbq95B/gCb+gRvLMXU7Uy4X6GORdHJdM6x6q8Od47jJCHKcCyX"
         }
       }
 </script>
@@ -81,10 +81,10 @@ Full Importmap Example
             <script type="importmap">
                   {
                     "imports": {
-                        "@aws-sdk/client-lakeformation": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-lakeformation@3.956.0/index.min.mjs"
+                        "@aws-sdk/client-lakeformation": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-lakeformation@3.957.0/index.min.mjs"
                     },
                       "integrity": {
-                        "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-lakeformation@3.956.0/index.min.mjs": "sha384-e/ULSe9GYXbJw/GUXzeB6YKn9Cxv92ASzC6NVM3pQUoKCU/Jnes0Jvu/uUVada5B"
+                        "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-lakeformation@3.957.0/index.min.mjs": "sha384-iXBx6pghiKS9Upkbq95B/gCb+gRvLMXU7Uy4X6GORdHJdM6x6q8Od47jJCHKcCyX"
                     }
                   }
             </script>
@@ -151,7 +151,7 @@ Replace
 
 When using CDN builds in production environments:
 
-* Always pin to a specific version (`@3.956.0`)
+* Always pin to a specific version (`@3.957.0`)
 * Avoid using `latest` in production to prevent unexpected breaking changes
 
 ---
@@ -171,7 +171,7 @@ https://github.com/cloud-sdk-builds/.github/issues
 This distribution follows the license terms included in the repository:
 
 ```
-https://github.com/cloud-sdk-builds/client-lakeformation/blob/refs/tags/3.956.0/LICENSE
+https://github.com/cloud-sdk-builds/client-lakeformation/blob/refs/tags/3.957.0/LICENSE
 ```
 
 ---
